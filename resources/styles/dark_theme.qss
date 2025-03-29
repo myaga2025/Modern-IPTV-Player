@@ -1,0 +1,217 @@
+/* Modern Dark Theme for IPTV Player */
+
+/* Main Application */
+QMainWindow, QDialog {
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+QWidget {
+    color: #f0f0f0;
+    background-color: #121212;
+}
+
+/* Menu and Status Bar */
+QMenuBar {
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+}
+
+QMenuBar::item {
+    background-color: transparent;
+}
+
+QMenuBar::item:selected {
+    background-color: #3a3a3a;
+}
+
+QMenu {
+    background-color: #1e1e1e;
+    border: 1px solid #2a2a2a;
+}
+
+QMenu::item {
+    padding: 5px 20px;
+}
+
+QMenu::item:selected {
+    background-color: #3a3a3a;
+}
+
+QStatusBar {
+    background-color: #1e1e1e;
+    color: #b0b0b0;
+}
+
+/* Tabs */
+QTabWidget::pane {
+    border: 1px solid #2a2a2a;
+    background-color: #121212;
+}
+
+QTabBar::tab {
+    background-color: #1e1e1e;
+    color: #b0b0b0;
+    padding: 8px 15px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    margin-right: 2px;
+}
+
+QTabBar::tab:selected {
+    background-color: #3a3a3a;
+    color: #f0f0f0;
+}
+
+/* Lists */
+QListWidget {
+    background-color: #1e1e1e;
+    border: 1px solid #2a2a2a;
+    border-radius: 4px;
+}
+
+QListWidget::item {
+    padding: 5px;
+    border-radius: 2px;
+}
+
+QListWidget::item:selected {
+    background-color: #3778b7;
+    color: #f0f0f0;
+}
+
+QListWidget::item:hover:!selected {
+    background-color: #2a2a2a;
+}
+
+/* Buttons */
+QPushButton {
+    background-color: #2a2a2a;
+    color: #f0f0f0;
+    border: 1px solid #3a3a3a;
+    border-radius: 4px;
+    padding: 6px 12px;
+}
+
+QPushButton:hover {
+    background-color: #3a3a3a;
+}
+
+QPushButton:pressed {
+    background-color: #444444;
+}
+
+QPushButton:flat {
+    border: none;
+    background-color: transparent;
+}
+
+/* Line Edit */
+QLineEdit {
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+    border: 1px solid #3a3a3a;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+QLineEdit:focus {
+    border: 1px solid #3778b7;
+}
+
+/* ComboBox */
+QComboBox {
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+    border: 1px solid #3a3a3a;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+QComboBox:hover {
+    border: 1px solid #3778b7;
+}
+
+QComboBox::drop-down {
+    width: 20px;
+    border-left: 1px solid #3a3a3a;
+}
+
+QComboBox QAbstractItemView {
+    border: 1px solid #3a3a3a;
+    background-color: #1e1e1e;
+    selection-background-color: #3778b7;
+}
+
+/* Sliders */
+QSlider::groove:horizontal {
+    height: 8px;
+    background: #2a2a2a;
+    border-radius: 4px;
+}
+
+QSlider::handle:horizontal {
+    background: #3778b7;
+    width: 16px;
+    margin: -4px 0;
+    border-radius: 8px;
+}
+
+QSlider::sub-page:horizontal {
+    background: #3778b7;
+    border-radius: 4px;
+}
+
+/* Scrollbars */
+QScrollBar:vertical {
+    border: none;
+    background: #1e1e1e;
+    width: 10px;
+    margin: 0px;
+}
+
+QScrollBar::handle:vertical {
+    background: #3a3a3a;
+    min-height: 30px;
+    border-radius: 5px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #4a4a4a;
+}
+
+QScrollBar:horizontal {
+    border: none;
+    background: #1e1e1e;
+    height: 10px;
+    margin: 0px;
+}
+
+QScrollBar::handle:horizontal {
+    background: #3a3a3a;
+    min-width: 30px;
+    border-radius: 5px;
+}
+
+QScrollBar::handle:horizontal:hover {
+    background: #4a4a4a;
+}
+
+QScrollBar::add-line, QScrollBar::sub-line {
+    border: none;
+    background: none;
+}
+
+QScrollBar::add-page, QScrollBar::sub-page {
+    background: none;
+}
+
+/* Labels */
+QLabel {
+    color: #f0f0f0;
+}
+
+/* Frame */
+QFrame {
+    border-radius: 4px;
+}

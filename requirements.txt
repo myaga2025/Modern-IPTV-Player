@@ -1,0 +1,6 @@
+PyQt6
+requests
+chardet
+python-vlc>=3.0.21203
+pyinstaller>=5.9.0
+pillow
