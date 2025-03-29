@@ -8,7 +8,7 @@
 Modern IPTV Player is a sophisticated application built using Python with PyQt6 interface and VLC media player backend.
 
 ### Features
-
+#### Windows & Linux App
 - Play channels from M3U links/playlists
 - Search and categorize channels
 - Create custom playlists
