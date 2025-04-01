@@ -63,7 +63,11 @@
  [],
  False,
  False,
+<<<<<<< Updated upstream
  1743239107,
+=======
+ 1743536125,
+>>>>>>> Stashed changes
  [('runw.exe',
    'C:\\Users\\info\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\runw.exe',
    'EXECUTABLE')],
