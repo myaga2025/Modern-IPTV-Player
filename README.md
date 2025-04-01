@@ -1,5 +1,5 @@
 # Modern IPTV Player / مشغل IPTV الحديث
-![صورة ](https://raw.githubusercontent.com/myaga2025/Modern-IPTV-Player/refs/heads/main/348263.png)
+![صورة ](https://raw.githubusercontent.com/myaga2025/Modern-IPTV-Player/refs/heads/main/348263.png?v=94)
 
 [English](#english) | [العربية](#arabic)
 
